@@ -101,6 +101,7 @@ Overview
 [RCircos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3765848/)
 
 ## From here to where? 
+Based on [here](http://zevross.com/blog/2014/07/16/mapping-in-r-using-the-ggplot2-package/)
 ```{r, out.width = 600, fig.retina = NULL, echo=FALSE}
 knitr::include_graphics("figures/mapidh.png")
 ```
@@ -166,6 +167,7 @@ https://www.rstudio.com/resources/webinars/working-with-big-data-in-r/
 https://www.coursera.org/learn/advanced-r
 
 [Hadley Wickham](http://hadley.nz/)
+
 [Roger D Peng](http://www.biostat.jhsph.edu/~rpeng/)
 
 ## Packages R
@@ -226,9 +228,9 @@ knitr::include_graphics("figures/fullsibQTL.png")
 - http://www.genetica.esalq.usp.br/bioinfo
 
 ##
-```{r, out.width = 800, fig.retina = NULL, echo=FALSE}
-knitr::include_graphics("figures/thatsallfolks.jpg")
-```
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/HeERupuicHE" frameborder="0" allowfullscreen></iframe>
+
 rramadeu@gmail.com
 
 ## Tips for better and faster scripts (1)
