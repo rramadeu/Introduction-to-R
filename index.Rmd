@@ -1,6 +1,6 @@
 ---
 title: "Introduction to R"
-author: "Rodrigo Amadeu"
+author: Rodrigo R Amadeu, rramadeu@gmail.com
 date: "May 23rd, 2017"
 output:
   ioslides_presentation: default
@@ -125,7 +125,7 @@ http://rosetta.ahmedmoustafa.io/drift/
 ## From here to where? 
 * Presentation (Rmd)
 
-`pres.Rmd`
+[index.Rmd](https://raw.githubusercontent.com/rramadeu/Introduction-to-R/gh-pages/index.Rmd)
 
 
 ## More about R? Tutorials
@@ -165,31 +165,49 @@ https://www.rstudio.com/resources/webinars/working-with-big-data-in-r/
 
 https://www.coursera.org/learn/advanced-r
 
+[Hadley Wickham](http://hadley.nz/)
+[Roger D Peng](http://www.biostat.jhsph.edu/~rpeng/)
+
 ## Packages R
-1x routine -> ok, just comment it
 
-2x routine -> wrap it in a function
+From [here](http://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html)
 
-2+ routine -> wrap them in a package
+<blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">&quot;I wish I&#39;d left this code across scattered .R files instead of combining it into a package&quot; said no one ever <a href="https://twitter.com/hashtag/rstats?src=hash">#rstats</a> <a href="http://t.co/udeNH4T67H">http://t.co/udeNH4T67H</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/611885584584441856">19 de junho de 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio
+## Packages R
+
+R scripts:
+
+- 1x routine: ok, just comment it
+- 2x routine: wrap it in a function
+- 2+ routine: wrap them in a package
 
 http://kbroman.org/pkg_primer/
+
+http://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html
+
+https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio
 
 
 ## Here at Genetics... 
 
-```{r, out.width = 400, fig.retina = NULL, echo=FALSE}
+[onemap](https://github.com/augusto-garcia/onemap)
+```{r, out.width = 500, fig.retina = NULL, echo=FALSE,fig.align='center'}
 knitr::include_graphics("figures/onemap.png")
 ```
 
-```{r, out.width = 400, fig.retina = NULL, echo=FALSE}
+[AGHmatrix](https://github.com/prmunoz/AGHmatrix)
+```{r, out.width = 500, fig.retina = NULL, echo=FALSE,fig.align='center'}
 knitr::include_graphics("figures/aghmatrix.png")
 ```
 
-Under development...
+## Here at Genetics... 
 
-```{r, out.width = 400, fig.retina = NULL, echo=FALSE}
+```{r, out.width = 200, fig.retina = NULL, echo=FALSE}
+knitr::include_graphics("figures/coming-soon.png")
+```
+```{r, out.width = 500, fig.retina = NULL, echo=FALSE,fig.align='center'}
 knitr::include_graphics("figures/fullsibQTL.png")
 ```
 
@@ -197,17 +215,15 @@ knitr::include_graphics("figures/fullsibQTL.png")
 
 ## Here at Genetics...
 
-* **Statistical-Genetics Lab**
+**Statistical-Genetics Lab**
 
-Prof Augusto Garcia
+- Prof Augusto Garcia
+- http://statgen.esalq.usp.br
 
-http://statgen.esalq.usp.br
+**Bioinformatics Applied to Bioenergy Lab**
 
-* **Bioinformatics Applied to Bioenergy Lab**
-
-Prof Gabriel Margarido
-
-http://www.genetica.esalq.usp.br/bioinfo
+- Prof Gabriel Margarido
+- http://www.genetica.esalq.usp.br/bioinfo
 
 ##
 ```{r, out.width = 800, fig.retina = NULL, echo=FALSE}
